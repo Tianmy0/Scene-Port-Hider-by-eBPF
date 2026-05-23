@@ -90,7 +90,7 @@ if [[ ! -f "$PREFIX/lib/libz.a" ]]; then
 #    if ! tar tzf zlib-1.3.1.tar.gz >/dev/null 2>&1; then
 #        rm -f zlib-1.3.1.tar.gz
 #        fetch zlib "https://zlib.net/fossils/zlib-1.3.1.tar.gz" zlib-1.3.1.tar.gz
-    fi
+#    fi
     zlib_dir="$(tar_topdir zlib-1.3.1.tar.gz)"
     rm -rf "$zlib_dir"
     tar_extract zlib-1.3.1.tar.gz
